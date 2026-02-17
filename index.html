@@ -2,50 +2,117 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Mon Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Professionnel - Votre Nom</title>
+    <meta name="description" content="Portfolio professionnel de [Votre Nom], étudiant en réseaux et développement web, spécialisé en cybersécurité.">
+    <meta name="keywords" content="Portfolio, Réseaux, Développement Web, Cybersécurité, Étudiant">
+    <meta name="author" content="[Votre Nom]">
+
+    <!-- Animate.css pour animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- Feuille de style principale -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<!-- HEADER -->
+<header class="animate__animated animate__fadeIn">
+    <img src="photo.jpg" alt="Photo professionnelle de [Votre Nom]" class="profile">
     <h1>Votre Nom</h1>
-    <p>Étudiant en Réseaux & Développement Web</p>
+    <p>Étudiant en Réseaux | Développeur Web | Futur Expert Cybersécurité</p>
+    <a href="#contact" class="btn">Me Contacter</a>
 </header>
 
-<section class="about">
-    <h2>À propos de moi</h2>
+<!-- À propos -->
+<section class="about animate__animated animate__fadeInUp">
+    <h2>À propos</h2>
     <p>
-        Je suis étudiant passionné par les réseaux informatiques,
-        le développement web et la cybersécurité.
+        Passionné par les technologies réseau et le développement web,
+        je réalise des projets modernes et sécurisés.
     </p>
 </section>
 
-<section class="skills">
+<!-- Compétences -->
+<section class="skills animate__animated animate__fadeInUp">
     <h2>Compétences</h2>
-    <ul>
-        <li>HTML / CSS</li>
-        <li>Git & GitHub</li>
-        <li>Réseaux Cisco</li>
-        <li>Cybersécurité (bases)</li>
-    </ul>
-</section>
-
-<section class="projects">
-    <h2>Mes Projets</h2>
-    <div class="project">
-        <h3>Site Web Restaurant</h3>
-        <p>Création d’un site vitrine moderne.</p>
+    <div class="skills-grid">
+        <div>HTML / CSS</div>
+        <div>Git & GitHub</div>
+        <div>Réseaux Cisco</div>
+        <div>Cybersécurité</div>
+        <div>Configuration Serveurs</div>
+        <div>Maintenance Informatique</div>
     </div>
 </section>
 
-<section class="contact">
-    <h2>Contact</h2>
-    <p>Email : votreemail@gmail.com</p>
+<!-- Services -->
+<section class="services animate__animated animate__fadeInUp">
+    <h2>Services</h2>
+    <div class="services-grid">
+        <div>
+            <h3>Création de Site Web</h3>
+            <p>Sites vitrines modernes et responsive.</p>
+        </div>
+        <div>
+            <h3>Configuration Réseau</h3>
+            <p>Mise en place VLAN, DHCP, sécurité réseau.</p>
+        </div>
+        <div>
+            <h3>Maintenance Informatique</h3>
+            <p>Installation et dépannage systèmes.</p>
+        </div>
+    </div>
 </section>
 
+<!-- Projets -->
+<section class="projects animate__animated animate__fadeInUp">
+    <h2>Projets</h2>
+    <div class="project-card">
+        <h3>Site Web Professionnel</h3>
+        <p>Création d’un site vitrine moderne et responsive.</p>
+    </div>
+    <div class="project-card">
+        <h3>Projet Réseau Cisco</h3>
+        <p>Configuration VLAN, DHCP et routage.</p>
+    </div>
+</section>
+
+<!-- Cybersécurité -->
+<section class="cybersecurity animate__animated animate__fadeInUp">
+    <h2>Cybersécurité</h2>
+    <p>
+        Je réalise des audits basiques de sécurité, configurations sécurisées de réseaux,
+        tests d’intrusion éthique et veille sur les vulnérabilités informatiques.
+    </p>
+    <ul>
+        <li>Audit de sécurité réseau</li>
+        <li>Configuration sécurisée de serveurs</li>
+        <li>Tests de pénétration basiques</li>
+        <li>Surveillance et alertes de vulnérabilités</li>
+    </ul>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact animate__animated animate__fadeInUp">
+    <h2>Contact</h2>
+
+    <form action="https://formsubmit.co/votreemail@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <a href="https://wa.me/NUMERO" class="contact-btn" target="_blank">WhatsApp</a>
+    <a href="https://linkedin.com/in/VOTREPROFIL" class="contact-btn" target="_blank">LinkedIn</a>
+    <a href="cv.pdf" class="contact-btn" download>Télécharger mon CV</a>
+</section>
+
+<!-- FOOTER -->
 <footer>
-    <p>© 2026 - Tous droits réservés</p>
+    <p>© 2026 - Portfolio Professionnel</p>
 </footer>
 
 </body>
-</html>
+    </html>
