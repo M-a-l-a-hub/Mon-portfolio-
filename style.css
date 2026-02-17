@@ -106,6 +106,21 @@ form button {
 form button:hover {
     background: #1e3a8a;
 }
+.project-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #24292e; /* couleur GitHub noir */
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.project-btn:hover {
+    background: #57606a; /* léger effet au survol */
+}
 .contact-btn {
     display: inline-block;
     margin: 10px;
